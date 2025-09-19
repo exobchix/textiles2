@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación en Tancanhuitz</title>
+    <!-- Bootstrap 3 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        /* Custom styles */
+        .jumbotron {
+            background-color: #f8f9fa;
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            border-radius: 0.3rem;
+        }
+
+        .gallery {
+            margin: 15px auto;
+        }
+
+        .gallery-item {
+            width: 32%;
+            margin-bottom: 15px;
+            padding: 5px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .gallery-item {
+                width: 48%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header con Jumbotron -->
+    <div class="jumbotron text-center">
+        <a href="index.html" class="btn btn-primary"> ◀️ Ir al Proyecto</a>
+        <h2>Municipio de Tancanhuitz, S.L.P.</h2>
+    </div>
+
+    <!-- Tabs para Galería y Videos -->
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">Galería</a></li>
+            <li role="presentation"><a href="#videos" aria-controls="videos" role="tab" data-toggle="tab">Videos</a></li>
+        </ul>
+
+        <!-- Contenido de los Tabs -->
+        <div class="tab-content">
+            <!-- Galería -->
+            <div role="tabpanel" class="tab-pane active" id="gallery">
+                <div class="container">
+                    <h3>Tamaleton, Tancanhuitz, S.L.P.</h3>
+                    <p><strong>Septiembre diciembre de 2024 y Febrero 2025</strong></p>
+                    <p>Centro Ceremonial de Tamaletom 1ª sección, municipio de Tancanhuitz, SLP.</p>
+                    <p>
+                    En este Centro ceremonial, se consagra una y otra vez la vida tének por medio de rituales que sirven
+                    para agradecer a las deidades de todos los rumbos del universo, mediante la preparación de
+                    alimentos, danzas, música y vestimentas en las que plasman figuras sagradas que representan todo
+                    este entorno sagrado.
+
+                    Los encuentros que hemos tenido en este lugar emblemático de la cultura tének, fueron realizados con
+                    el propósito de reflexionar colectivamente en torno a los desafíos, riesgos y acciones posibles para
+                    registrar y proteger las memorias patrimoniales ancestrales relacionadas con los saberes textiles.
+                    Manifestamos en colectivo la importancia de una mayor y mejor visibilización y difusión de los
+                    conocimientos que conservamos las mujeres tének, sobre la indumentaria en su conjunto y de manera
+                    particular, el universo de significados de las figuras que bordamos en la prenda sagrada llamada
+                    dhayem y en el jal’kidh.
+
+                    Invitamos también a profesoras, profesores y alumnas de la Universidad Intercultural (Campus
+                    Tancanhuitz), a colaborar en algunos de los talleres, con la idea de que pudieron tener una
+                    experiencia de convivencia directa con quienes integran el Centro Ceremonial, que se encuentra a
+                    poca distancia del Campus. Aun la cercanía, la juventud tének del municipio a veces desconoce la
+                    existencia de un Centro donde se mantienen vigentes algunas prácticas ancestrales.
+
+                    Además de que participaron activamente en la investigación colaborativa y el intercambio de los
+                    saberes que fueron expresados, las estudiantes y los profesores, realizaron un importante registro
+                    en videos, fotos y audios. Con estos materiales, iniciarán el diseño de un micrositio que será
+                    hospedado en la página web de la UIC, con la idea de difundir estas formas del patrimonio cultural
+                    tének de la Huasteca potosina.
+                    </p>
+                    <div class="gallery" id="masonry-gallery">
+                        <div class="gallery-item">
+                            <img src="img/tamaleton_tanca/01.jpg" alt="Imagen 1" class="img-responsive">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tamaleton_tanca/02.jpg" alt="Imagen 2" class="img-responsive">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tamaleton_tanca/03.jpg" alt="Imagen 3" class="img-responsive">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tamaleton_tanca/04.jpg" alt="Imagen 4" class="img-responsive">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tamaleton_tanca/05.jpg" alt="Imagen 5" class="img-responsive">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tamaleton_tanca/06.jpg" alt="Imagen 6" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videos -->
+            <div role="tabpanel" class="tab-pane" id="videos">
+                <h2 class="text-center">Videos</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_1"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_2"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Testimonios en Panels -->
+    <!-- <div class="container testimonials">
+        <h2 class="text-center">Testimonios de los Participantes</h2>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                "Este proyecto ha sido una experiencia increíble. He aprendido mucho y he conocido a gente maravillosa."
+            </div>
+            <div class="panel-footer">Participante 1</div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                "La investigación fue desafiante pero muy gratificante. Recomiendo este proyecto a todos."
+            </div>
+            <div class="panel-footer">Participante 2</div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                "Gracias a este proyecto, he podido contribuir a algo importante para la sociedad."
+            </div>
+            <div class="panel-footer">Participante 3</div>
+        </div>
+    </div> -->
+
+    <!-- Bootstrap 3 JS y dependencias -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Masonry -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <!-- Inicializar Masonry -->
+    <script>
+        $(document).ready(function () {
+            var $gallery = $('#masonry-gallery').masonry({
+                itemSelector: '.gallery-item',
+                columnWidth: '.gallery-item',
+                percentPosition: true
+            });
+            // Recargar Masonry después de cargar imágenes
+            $gallery.imagesLoaded().progress(function () {
+                $gallery.masonry('layout');
+            });
+        });
+    </script>
+</body>
+
+</html>
