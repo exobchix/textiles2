@@ -1,0 +1,156 @@
+/* Custom styles */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    width: 32%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer img {
+    max-height: 100px;
+    margin: 10px;
+}
+
+.titulo_textiles {
+    width: 100%;
+    color: #E76811;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about_taital_2 {
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    color: #1d1c24;
+    font-weight: bold;
+}
+
+.image_ptc {
+    overflow: hidden;
+}
+
+.image_ptc {
+    width: 100%;
+    float: left;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px 1px #ec731e;
+}
+
+.volver {
+    font-size: 12px;
+    color: #999;
+}
+
+.textiles_text {
+    width: 100%;
+    float: left;
+    text-align: justify;
+    font-size: 17px;
+    color: #1d1c24;
+    margin-left: 0px;
+}
+
+.container h4 {
+    color: #F60;
+    color: white;
+    background-color: #E77817;
+    text-align: center;
+}
+
+.logo-img {
+
+    object-fit: contain;
+    display: inline-block;
+}
+
+.inicio-img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.pest1-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pest1-row .inicio-img {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.pest1-row .text-col {
+    padding-left: 10px;
+}
+
+.municipios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.municipio-btn {
+    margin: 5px 8px;
+}
+
+@media (max-width: 767px) {
+    .pest1-row {
+        display: block;
+    }
+
+    .pest1-row .text-col {
+        padding-left: 15px;
+    }
+}
